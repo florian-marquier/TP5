@@ -12,5 +12,5 @@ class Robots : public Heros
     private:
         int m_forcegagets;
 };
-
+#include "Robots.cpp"
 #endif

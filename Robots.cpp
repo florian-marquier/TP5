@@ -11,5 +11,11 @@ Robots::Robots(string nomheros, int vieheros, string nomarme, int puissancearme,
 
 Robots::Robots(string nomheros, int vieheros, string nomarme, int puissancearme, int forcegadgets) : Heros(nomheros, vieheros, nomarme, puissancearme), m_forcegagets(forcegadgets)
 {
-    
+
+}
+
+void Robots::utiliserLesGadgets(Heros &cible)
+{
+    cout<<m_nomheros<<" attaque avec une force de "<<m_forcegagets<<endl;
+    cible.diminuerVie(m_forcegagets);
 }

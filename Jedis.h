@@ -12,4 +12,5 @@ class Jedis : public Heros
     private:
     int m_force;
 };
+#include "Jedis.cpp"
 #endif

@@ -12,5 +12,5 @@ class Siths : public Heros
     private:
         int m_coteobscur;
 };
-
+#include "Siths.cpp"
 #endif

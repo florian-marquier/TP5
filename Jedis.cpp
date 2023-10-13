@@ -11,5 +11,11 @@ Jedis::Jedis(string nomheros, int vieheros, string nomarme, int puissancearme) :
 
 Jedis::Jedis(string nomheros, int vieheros, string nomarme, int puissancearme, int force) : Heros(nomheros, vieheros, nomarme, puissancearme), m_force(force)
 {
-    
+
+}
+
+void Jedis::utiliserLaForce(Heros &cible)
+{
+    cout<<m_nomheros<<" attaque avec une force de "<<m_force<<endl;
+    cible.diminuerVie(m_force);
 }
