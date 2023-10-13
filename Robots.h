@@ -3,9 +3,11 @@
 
 #include "Heros.h"
 
-class Robats : public Heros
+class Robots : public Heros
 {
     public:
+        Robots(std::string nomheros, int vieheros, std::string nomarme, int puissancearme);
+        Robots(std::string nomheros, int vieheros, std::string nomarme, int puissancearme, int forcegadgets);
         void utiliserLesGadgets();
     private:
         int m_forcegagets;
