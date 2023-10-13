@@ -19,5 +19,5 @@ class Heros
         bool vivant() const;
         void afficher()const;
 };
-#include "Heros.h"
+#include "Heros.cpp"
 #endif
