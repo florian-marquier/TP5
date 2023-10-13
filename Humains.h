@@ -1,4 +1,4 @@
-#ifdef Humains_h
+#ifndef Humains_h
 #define Humains_h
 
 #include "Heros.h"
@@ -10,7 +10,7 @@ class Humains : public Heros
         Humains(std::string nomheros, int vieheros, std::string nomarme, int puissancearme, int forcepoing);
         void coupDePoing();
     private:
-    int m_forcepoing;
+        int m_forcepoing;
 };
 
 #endif
