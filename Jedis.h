@@ -7,5 +7,7 @@ class Jedis : public Heros
 {
     public:
         void utiliserLaForce();
-    
-}
+    private:
+    int m_force;
+};
+#endif
