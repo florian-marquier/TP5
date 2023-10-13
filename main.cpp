@@ -15,5 +15,5 @@ int main()
     Heros r2d2("R2D2", 50, "Pistolet Laser", 30);
     Heros c3po("C-3PO", 80, "Laser", 30);
 
-    retunr 0;
+    return 0;
 }

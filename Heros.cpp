@@ -21,18 +21,18 @@ bool Heros::vivant()const
 
 Heros::Heros() : m_nomheros("Inconnu"),m_vieheros(0){}
 
-Heros::Heros(string nomheros, int vieheros, string nomarme, int puissance)
+Heros::Heros(string nomheros, int vieheros, string nomarme, int puissancearme)
 {
     m_nomheros = nomheros;
     m_vieheros = vieheros;
     m_nomarme = nomarme;
-    m_puissancearme = puissancearme;
+    m_puissancearme = puissancearme ;
 }
 
 void Heros::afficher()const
 {
     cout<<"Heros : "<<m_nomheros<<"\tVie : "<<m_vieheros<<endl;
-    cout<<"Arme : "<<m_nomarme<<"\tPuissance de l'arme : "<<m_puissanccearme<<endl;
+    cout<<"Arme : "<<m_nomarme<<"\tPuissance de l'arme : "<<m_puissancearme<<endl;
     if(vivant() == true)
         cout <<"Heros Vivant"<<endl;
     else
