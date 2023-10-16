@@ -6,7 +6,7 @@
 
 class Heros
 {
-    private:
+    protected:
         std::string m_nomheros;
         int m_vieheros;
         std::string m_nomarme;

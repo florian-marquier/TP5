@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include "Heros.h"
+#include "Humains.h"
+#include "Robots.h"
 using namespace std;
 void Heros::diminuerVie(int vieenmoins)
 {
